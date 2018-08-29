@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QrJen:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QrJen_jar</output-path>
+    <root id="archive" name="QrJen.jar">
+      <element id="module-output" name="QrJen" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/core-3.3.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
