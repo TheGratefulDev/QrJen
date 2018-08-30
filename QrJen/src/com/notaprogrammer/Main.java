@@ -48,8 +48,9 @@ public class Main {
         frame.setSize(700,150);
         frame.getContentPane().setLayout(new FlowLayout());
         frame.setVisible(true);
+        frame.setResizable(false);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
+        frame.getRootPane().setDefaultButton(button);
         //action listener lambda
         button.addActionListener(arg0 -> {
             String returnMessage = generateQrCode(contentTextField.getText(), fileNameTextField.getText());
